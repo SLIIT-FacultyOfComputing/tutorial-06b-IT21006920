@@ -6,5 +6,5 @@ class Student
 
   public:
     void assignDetails(int id, const char sname[]);
-    void display;  
+    void display();  
 }
