@@ -5,6 +5,6 @@ class Student
     char name [20];
 
   public:
-    void assignDetails(int id, const char sname[]);
+    void assignDetails(int id, const char sname[20]);
     void display();  
 }
