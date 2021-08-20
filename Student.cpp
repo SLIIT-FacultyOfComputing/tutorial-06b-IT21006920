@@ -8,7 +8,7 @@ using namespace std;
 void Student::assignDetails(int id, const char sname[]) 
 {
   studentId = id;
-  strcpy(name, sname);  
+  strcpy(studetName, sname);  
 }
 
 // Display StudentId and Name
@@ -18,5 +18,5 @@ void Student::display()
   cout << studentId << endl;
 
   cout << "Student id: ";
-  cout << name << endl;
+  cout << studentName << endl;
 }
