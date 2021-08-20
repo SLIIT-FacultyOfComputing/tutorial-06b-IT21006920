@@ -5,18 +5,18 @@
 using namespace std;
 
 // Assign studentId and name
-void Student::assignDetails(int id, const char sname[]) 
+void Student::assignDetails(int id, const char sname[20]) 
 {
   studentId = id;
-  strcpy(studetName, sname);  
+  strcpy(name, sname);  
 }
 
 // Display StudentId and Name
 void Student::display() 
 {
-  cout << "student id: ";
+  cout << "Student id: ";
   cout << studentId << endl;
 
-  cout << "Student id: ";
-  cout << studentName << endl;
+  cout << "Student name: ";
+  cout << name << endl;
 }
